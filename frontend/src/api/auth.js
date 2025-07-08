@@ -37,3 +37,4 @@ export const addToWatchHistory =(videoId) => API.post(`/addVideo/${videoId}`);
 export const removeFromWatchHistory = (videoId) => API.post(`/watch-history/remove/${videoId}`);
 export const getUserVideos = () => API.get(`/user-videos`);
 export const incrementView =(videoId) => API.patch(`/video/${videoId}/views`)
+export default API;
