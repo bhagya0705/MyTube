@@ -125,7 +125,8 @@ const loginUser = asyncHandler(async (req, res) => {
 
   const options = {      // cookies configuration options
     httpOnly: true,
-    secure: true
+    secure: true,
+    sameSite: 'None',
   }
 
   return res.status(200).cookie("refreshToken", refreshToken, options).cookie("accessToken", accessToken, options).json(
