@@ -32,6 +32,7 @@ const RegisterPage = () => {
     }
 
     try {
+      console.log(API.defaults.baseURL);
       await registerUser(data);
       alert("Registration successful!");
       navigate("/login");
