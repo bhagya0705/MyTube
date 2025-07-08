@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import API from "../api/auth";
 import { registerUser } from "../api/auth";
 import { useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";

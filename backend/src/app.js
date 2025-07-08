@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser'; //Cookie parser is used for parsing co
 const app = express();
 
 app.use(cors({
-    origin: 'https://mytube-cu8h47nj3-bhagyas-projects-bd2a4e8e.vercel.app',
+    origin: 'https://my-project-dun-seven.vercel.app',
     credentials: true,
 }));
 app.use(express.json({limit: '50mb'}));
