@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'https://mytube-o0t3.onrender.com', 
+    baseURL: 'https://mytube-o0t3.onrender.com/api/v1/users', 
     withCredentials: true, 
 });
 
